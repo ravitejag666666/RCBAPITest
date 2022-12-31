@@ -1,4 +1,4 @@
-package TestRaviGroup.TestRaviArtifact;
+package MainPackage;
 
 public class RCBJsonPayLoad {
 

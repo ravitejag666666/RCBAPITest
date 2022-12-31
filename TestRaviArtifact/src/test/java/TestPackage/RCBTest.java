@@ -1,8 +1,9 @@
-package TestRaviGroup.TestRaviArtifact;
+package TestPackage;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import MainPackage.RCBJsonPayLoad;
 import io.restassured.path.json.JsonPath;
 
 public class RCBTest {

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1438" started-at="2022-12-31T06:17:04Z" finished-at="2022-12-31T06:17:06Z">
+  <suite name="Default suite" duration-ms="1499" started-at="2022-12-31T08:31:17Z" finished-at="2022-12-31T08:31:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1438" started-at="2022-12-31T06:17:04Z" finished-at="2022-12-31T06:17:06Z">
-      <class name="TestRaviGroup.TestRaviArtifact.RCBTest">
-        <test-method status="PASS" signature="ForeignPlayers()[pri:0, instance:TestRaviGroup.TestRaviArtifact.RCBTest@1b604f19]" name="ForeignPlayers" duration-ms="1233" started-at="2022-12-31T06:17:04Z" finished-at="2022-12-31T06:17:05Z">
+    <test name="Default test" duration-ms="1499" started-at="2022-12-31T08:31:17Z" finished-at="2022-12-31T08:31:19Z">
+      <class name="TestPackage.RCBTest">
+        <test-method status="PASS" signature="ForeignPlayers()[pri:0, instance:TestPackage.RCBTest@1b604f19]" name="ForeignPlayers" duration-ms="1279" started-at="2022-12-31T08:31:17Z" finished-at="2022-12-31T08:31:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ForeignPlayers -->
-        <test-method status="PASS" signature="WicketKeepers()[pri:0, instance:TestRaviGroup.TestRaviArtifact.RCBTest@1b604f19]" name="WicketKeepers" duration-ms="180" started-at="2022-12-31T06:17:05Z" finished-at="2022-12-31T06:17:06Z">
+        <test-method status="PASS" signature="WicketKeepers()[pri:0, instance:TestPackage.RCBTest@1b604f19]" name="WicketKeepers" duration-ms="196" started-at="2022-12-31T08:31:19Z" finished-at="2022-12-31T08:31:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WicketKeepers -->
-      </class> <!-- TestRaviGroup.TestRaviArtifact.RCBTest -->
+      </class> <!-- TestPackage.RCBTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
