@@ -15,7 +15,8 @@ public class RCBTest {
 		System.out.println("Number of players in " + js.get("name") + ": " + NumberOfPlayers);
 		int ExpectedForeignPlayers = 4;
 		int ActualForeignPlayers = 0;
-
+try
+{
 		for (int i = 0; i < NumberOfPlayers; i++) {
 			String t = js.getString("player[" + i + "].country");
 			String t2 = js.getString("player[" + i + "].name");
@@ -29,7 +30,12 @@ public class RCBTest {
 		}
 
 		Assert.assertEquals(ExpectedForeignPlayers, ActualForeignPlayers);
-		System.out.println(js.get("name") + " has exactly " + ActualForeignPlayers + " Foreign players");
+		System.out.println("Test Passed : " + js.get("name") + " has exactly " + ActualForeignPlayers + " Foreign players");
+}
+catch(Exception e)
+{
+	System.out.println("Test failed, exception is : " + e);
+}
 
 	}
 
@@ -41,7 +47,8 @@ public class RCBTest {
 		// System.out.println(NumberOfPlayers);
 
 		int NumOfWicketKeepers = 0;
-
+try
+{
 		for (int i = 0; i < NumberOfPlayers; i++) {
 			String t = js.getString("player[" + i + "].role");
 			String t2 = js.getString("player[" + i + "].name");
@@ -55,13 +62,17 @@ public class RCBTest {
 		}
 
 		if (NumOfWicketKeepers >= 1) {
-			System.out.println(js.get("name") + " has atleast 1 Wicket keeper");
+			System.out.println("Test Passed : " + js.get("name") + " has atleast 1 Wicket keeper");
 		}
 		else
 		{
 			System.out.println(js.get("name") + " should have atleast 1 Wicket-Keeper");
 		}
-
+}
+catch(Exception e)
+{
+	System.out.println("Test failed, exception is : " + e);
+}
 	}
 
 }
